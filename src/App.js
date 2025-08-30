@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>State</h1>
+        <h1>STATE</h1>
         <a
           className="App-link"
           href="https://git-scm.com/book/ru/v2"
