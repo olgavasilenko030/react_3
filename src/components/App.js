@@ -8,6 +8,10 @@ import Form from './form/Form.js';
 import Range from './range/Range.js';
 import Post from './posts/Posts.js';
 import Posts from'./posts/Posts.js';
+import Binary from './cal_binary/Binary.js';
+import Decimal from './cal_decimal/Decimal.js';
+import Hexa_decimal from './cal_hexa_decimal/Hexa_decimal.js';
+import Hexadecimal from './cal_hexadecimal/Hexadecimal.js';
 
 class App extends React.Component
 {
@@ -23,13 +27,17 @@ class App extends React.Component
 render() {
   return (
     <div className="App">
-      <Header/>
+      <Header/> 
+      <Binary/>
+      <Decimal/>
+      <Hexa_decimal/>
+      <Hexadecimal/>
       {/* <Hello/>
-      <Length/>
-      <Form/>
-      <Range/> */}
-      {typeof(this.state.posts)}
-      <Posts posts={this.state.posts} />
+      <Length/>  */}
+      {/* <Form/> */}
+      {/* <Range/>
+      {typeof(this.state.posts)} */}
+      {/* <Posts posts={this.state.posts} /> */}
       {/* <Post title="Title" content="Content"/> */}
     </div>
   );
